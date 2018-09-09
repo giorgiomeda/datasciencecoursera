@@ -2,6 +2,8 @@
 ## functions do
 
 ## Write a short comment describing this function
+install.packages("matlib")
+library(matlib)
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
